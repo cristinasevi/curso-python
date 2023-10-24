@@ -1,5 +1,5 @@
 # Escribe un programa que pida un número entero mayor que 1 y que escriba si el número es un número primo o no.
-# Recuerde que un número primo solo es divisible por si mismo y por 1
+# Recuerda que un número primo solo es divisible por si mismo y por 1
 
 numero = int(input("Escribe un número entero mayor que 1: "))
 
