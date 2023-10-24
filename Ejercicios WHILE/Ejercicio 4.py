@@ -3,8 +3,7 @@
 mínimo = int(input("Escribe un número: "))
 máximo = int(input("Escribe un número mayor que %d:" % mínimo))
 while mínimo >= máximo:
-    máximo = int(
-        input(" %d no es mayor que %d . Inténtalo de nuevo: " % (máximo, mínimo)))
+    máximo = int(input(" %d no es mayor que %d . Inténtalo de nuevo: " % (máximo, mínimo)))
 
 print()
 número = float(input("Escribe un número entre %d y %d :" % (mínimo, máximo)))
@@ -12,8 +11,7 @@ contador = 0
 
 while mínimo <= numero and numero <= máximo:
     contador += 1
-    numero = float(input("Escribe otro número entre %d y %d :" %
-                   (mínimo, máximo)))
+    numero = float(input("Escribe otro número entre %d y %d :" % (mínimo, máximo)))
 
 print()
 if contador == 0:
