@@ -1,6 +1,5 @@
 # Escribe un programa que pregunte cuántos números se van a introducir, pida esos números, y escriba el mayor, el menor y la media aritmética.
-# Recuerde que la media aritmética de un conjunto de valores es la suma de esos valores dividida por la cantidad de valores.
-
+# Recuerda que la media aritmética de un conjunto de valores es la suma de esos valores dividida por la cantidad de valores.
 
 numero = int(input("¿Cuántos números vas a introducir?: "))
 
@@ -18,5 +17,4 @@ else:
             maximo = valor
     print(f"El número menor de los introducidos es {minimo}")
     print(f"El número mayor de los introducidos es {maximo}")
-    print(
-        f"La media aritmética de los números introducidos es {suma / numero}")
+    print(f"La media aritmética de los números introducidos es {suma / numero}")
