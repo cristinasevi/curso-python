@@ -11,7 +11,7 @@ contador = 0
 
 while mínimo <= numero and numero <= máximo:
     contador += 1
-    numero = float(input("Escribe otro número entre %d y %d :" % (mínimo, máximo)))
+    número = float(input("Escribe otro número entre %d y %d :" % (mínimo, máximo)))
 
 print()
 if contador == 0:
